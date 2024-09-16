@@ -1,7 +1,6 @@
 # the test root
 #returns a 200 response if the user is authenticated, and a 403 response otherwise
 
-# token/views.py
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.authentication import TokenAuthentication
